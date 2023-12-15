@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TODOPC</title>
+	<script src="https://kit.fontawesome.com/9f80aee20e.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="CSS página web todopc.css">
+	<link rel="stylesheet" href="BACKGROUND.css">
+
+	<style>
+		body{
+			background-image: url('https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed; 
+			background-size: cover;
+		}
+		table, th, td{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th, td{
+			padding: 20px;
+			text-align: center;
+		}
+		th{
+			text-align: center;
+		}		
+	</style>	
+
+	</head>
+	<body>
+		<header>
+			<div class="header__superior">
+				<div class="logo">
+					<img src="https://www.todopcservice.com.uy/wp-content/uploads/2022/01/logo-todopc-redondo-1.png" alt="logo-todopc-redondo-1">
+				</div>
+			</div>
+			<div class="search">
+				<input type="search" placeholder="¿Qué deseas buscar?">
+			</div>
+			<div class="container__menu">
+
+				<div class="menu">
+					<input type="checkbox" id="check__menu">
+					<label for="check__menu" id="label__check">
+						<i class="fas fa-bars icon__menu"></i>
+					</label>
+					<nav>
+						<ul>
+							<li><a href="#" id="selected"></a></li>
+							<li><a href="#">INICIO</a></li>
+							<li><a href="#">CATEGORÍAS</a>
+								<ul>
+									<li><a href="ORDENADORES DE SOBREMESA.html">Ordenadores de sobremesa</a></li>
+									<li><a href="#">Teléfonos</a></li>
+									<li><a href="#">Portátiles</a></li>
+									<li><a href="#">Televisores</a></li>
+									<li><a href="#">Consolas</a></li>
+									<li><a href="#">Periféricos</a></li>
+								</ul>
+							</li>
+							<li><a href="#">OFERTAS MES</a></li>
+							<li><a href="NOSOTROS.HTML">NOSOTROS</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		
+		<main>
+			<article>
+				<h2>TODO PC</h2>
+				<p>
+				Bienvenidos a <strong><i>TODOPC</i></strong> una tienda de ordenadores donde encontrareis una gran variedad de dispositivos electónicos. Donde podreis comparar precios, características o ver ofertas sobre móviles, ordenadores de sobremesa, portátiles, videoconsolas y muchos otros dispositivos. Cada mes encontareis una tabla con las <a href="#OFERTAS DEL MES MÁS DESTACADAS">ofertas del mes más destacadas</a>.
+				</p>
+			
+				<p>
+				Todos necesitamaos a día de hoy un dispositivo electrónico en nuestras vidas (ya sea para viajar con el gps o para contactar/jugar con amigos/familiares entre otros), como el H<sub>2</sub>O.
+				</p><br><br>
+
+				<table style="width:70%; margin-left: 250px;">
+					<tr>
+						<th colspan="6"><i><a name="OFERTAS DEL MES MÁS DESTACADAS">OFERTAS DEL MES MÁS DESTACADAS</a></i></th>
+					<tr>
+						<td><strong><i>TIPO</i></strong></td>
+						<td><strong><i>ARTÍCULOS</i></strong></td>
+						<td><strong><i>PRECIO</i></strong></td>
+						<td><strong><i>IMÁGEN</i></strong></td>
+						<td><strong><i>PVPR</i></strong></td>
+						<td><strong><i>DTO</i></strong></td>
+					</tr>	
+					<tr>
+						<th rowspan="2">PC Gaming</th>
+						<td> PcCom Gold Élite Intel Core i5-11400F/16GB/500GBSSD/RTX3060</td>
+						<td>990,00€</td>
+						<td><img src="https://thumb.pccomponentes.com/w-530-530/articles/1002/10023724/1354-pccom-gold-elite-intel-core-i5-11400f-16gb-500gbssd-rtx3060-comprar.jpg" alt="1354-pccom-gold-elite-intel-core-i5-11400f-16gb-500gbssd-rtx3060-comprar" style="width:150px;height:150PX; margin-left: 0px"></td>
+						<td><del>1121,26€</del></TD>
+						<td>-11%</td>
+					</tr>
+					<tr>
+						<td>PcCom Gold Elite Intel Core i5-12400F/16GB/1TB SSD/RTX3060TI</td>
+						<td>1185€</td>
+						<td><img src="https://thumb.pccomponentes.com/w-530-530/articles/1039/10395556/1919-pccom-gold-elite-intel-core-i5-12400f-16gb-1tb-ssd-rtx3060ti-especificaciones.jpg" alt="1919-pccom-gold-elite-intel-core-i5-12400f-16gb-1tb-ssd-rtx3060ti-especificaciones" style="width:150px;height:150px; margin-left: 0px"></td>
+						<td><del>1378,53€</del></TD>
+						<td>-14%</td>
+					</tr>
+					<tr>
+						<th rowspan="2"><a name="portatil">Portátil Gaming</a></th>
+						<td>Acer Nitro 5 AN515-57-75M9 Intel Core i7-11800H/16GB/512GB SSD/RTX 3050Ti/15.6"</td>
+						<td>769€</td>
+						<td><img src="https://thumb.pccomponentes.com/w-530-530/articles/1037/10370488/1688-acer-nitro-5-an515-57-75m9-intel-core-i7-11800h-16gb-512gb-ssd-rtx-3050ti-156.jpg" alt="1688-acer-nitro-5-an515-57-75m9-intel-core-i7-11800h-16gb-512gb-ssd-rtx-3050ti-156" style="width:150px;height:150px; margin-left: 0px"></td>
+						<td><del>1199€</del></TD>
+						<td>-35%</td>
+					</tr>
+					<tr>
+						<td>HP Victus 16-e0101ns AMD Ryzen 7 5800H/16GB/512GB SSD/RTX 3060/16.1"</td>
+						<td>929€</td>
+						<td><img src="https://thumb.pccomponentes.com/w-530-530/articles/1039/10396660/1123-hp-victus-16-e0101ns-amd-ryzen-7-5800h-32gb-512gb-ssd-rtx-3060-161.jpg" alt="1123-hp-victus-16-e0101ns-amd-ryzen-7-5800h-32gb-512gb-ssd-rtx-3060-161" style="width:150px;height:150PX; margin-left: 0px"></td>
+						<td><del>1299€</del></TD>
+						<td>-28%</td>
+					</tr>
+					<tr>
+						<th rowspan="2">Periféricos</th>
+						<td>Razer BlackWidow V3 Mini HyperSpeed Teclado Gaming Retroiluminado Yellow Switch</td>
+						<td>99,99€</td>
+						<td><img src="https://thumb.pccomponentes.com/w-530-530/articles/40/404682/190-razer-blackwidow-v3-mini-hyperspeed-teclado-gaming-retroiluminado-yellow-switch.jpg" alt="190-razer-blackwidow-v3-mini-hyperspeed-teclado-gaming-retroiluminado-yellow-switch" style="width:150px;height:150px; margin-left: 0px"></td>
+						<td><del>189,99€</del></TD>
+						<td>-35%</td>
+					</tr>
+					<tr>
+						<td>Logitech G502 Hero Ratón Gaming 25600DPI</td>
+						<td>38,68€</td>
+						<td><img src="https://thumb.pccomponentes.com/w-530-530/articles/17/179806/244-logitech-g502-hero-raton-gaming-16000dpi-caracteristicas.jpg" style="width:150px;height:150PX; margin-left: 0px"></td>
+						<td><del>89,99€</del></TD>
+						<td>-57%</td>
+					</tr>
+				</table>
+			</article>
+			<footer>
+				<p style="color: azure;">Si necesitas ayuda contacte con nosotros mediante el correo electrónico <a href="todopc@gmail.com">todopc@gmail.com</a> o al número 678987435.
+			</footer>
+		</main>
+	</body>
+</html>
